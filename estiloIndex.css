@@ -1,0 +1,63 @@
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* DISPOSICIÓN DE LOS BLOQUES EN PANTALLA */
+#topDiv{
+    height: 75%;
+    width: 100%;
+}
+
+#mapContainer{
+    width: 70%;
+    height: 100%; 
+    display: inline-block;
+}
+
+#map_frame { 
+    height: 100%; 
+}
+
+#rightDiv{
+    width: 29%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#imgContainer {
+    height: 70%;
+    text-align: center;
+}
+
+#bottomDiv{
+    height: 25%;
+    margin-left: 3%;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+      
+}
+
+/* BOTONES */
+#confirmar, #next, #reset{
+    margin-top: 5%;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* IMÁGEN */
+#image{
+    height: 100%;
+    width: 100%;
+}
+
+
